@@ -18,6 +18,6 @@ canny = cv2.Canny(blur, 50, 150)
 
 # display image using the array form of image as inout arguement
 cv2.imshow("Result", canny)
-
+ 
 # image goes only when any key pressed
 cv2.waitKey(0)
