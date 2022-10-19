@@ -8,7 +8,7 @@ image = cv2.imread("/Users/ajay/ML_Prac/Lane_Detection/test_image.jpeg")
 lane_image = np.copy(image)
 
 # work on gray scale image as it has single color channel & hence has faster processing
-gray = cv2.cvtColor(lane_image, cv2.COLOR_BGR2GRAY)
+gray = cv2.cvtColor(lane_image, cv2.COLOR_BGR2GRAY) 
 
 # performing image noise filtering and smoothening of image using gaussian blur
 blur = cv2.GaussianBlur(gray, (5, 5), 0)
