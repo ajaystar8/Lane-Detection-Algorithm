@@ -16,7 +16,6 @@ blur = cv2.GaussianBlur(gray, (5, 5), 0)
 # Canny edge detection
 canny = cv2.Canny(blur, 50, 150)
 
-
 # display image using the array form of image as inout arguement
 cv2.imshow("Result", canny)
  
